@@ -1,21 +1,21 @@
-# react-native-test-pv66645-rn-1
+# pv66645-test-2
 
 A test library which can use in react-native projects
 
 ## Installation
 
 ```sh
-npm install react-native-test-pv66645-rn-1
+npm install pv66645-test-2
 ```
 
 ## Usage
 
-```js
-import { multiply } from 'react-native-test-pv66645-rn-1';
+```tsx
+import DemoComp from 'pv66645-test-2';
 
 // ...
 
-const result = await multiply(3, 7);
+<DemoComp backgroundColor="green" text="hello how are you doing">
 ```
 
 ## Contributing
